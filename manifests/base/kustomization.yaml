@@ -1,0 +1,24 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- base
+- todoBackend
+- todoGenerator
+- todoApp
+- todoBroadcaster
+images:
+- name: todo-app
+  newName: europe-north1-docker.pkg.dev/dwk-gke-471813/jongcp/todo-app
+  newTag: main-38e2bd4cee85abf0e9cb455aa792644281c76307
+- name: todo-backend
+  newName: europe-north1-docker.pkg.dev/dwk-gke-471813/jongcp/todo-backend
+  newTag: main-38e2bd4cee85abf0e9cb455aa792644281c76307
+- name: todo-backuper
+  newName: europe-north1-docker.pkg.dev/dwk-gke-471813/jongcp/todo-backuper
+  newTag: main-38e2bd4cee85abf0e9cb455aa792644281c76307
+- name: todo-broadcaster
+  newName: europe-north1-docker.pkg.dev/dwk-gke-471813/jongcp/todo-broadcaster
+  newTag: main-38e2bd4cee85abf0e9cb455aa792644281c76307
+- name: todo-generator
+  newName: europe-north1-docker.pkg.dev/dwk-gke-471813/jongcp/todo-generator
+  newTag: main-38e2bd4cee85abf0e9cb455aa792644281c76307

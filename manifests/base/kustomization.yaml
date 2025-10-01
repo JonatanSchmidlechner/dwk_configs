@@ -9,16 +9,16 @@ resources:
 images:
 - name: todo-app
   newName: europe-north1-docker.pkg.dev/dwk-gke-471813/jongcp/todo-app
-  newTag: 4.10-d39ef3d363ec3576dddb78d25413ab76727c7586
+  newTag: main-73977ef73847a8f57fd23892ec27c2cee0c43cdf
 - name: todo-backend
   newName: europe-north1-docker.pkg.dev/dwk-gke-471813/jongcp/todo-backend
-  newTag: 4.10-d39ef3d363ec3576dddb78d25413ab76727c7586
+  newTag: main-73977ef73847a8f57fd23892ec27c2cee0c43cdf
 - name: todo-backuper
   newName: europe-north1-docker.pkg.dev/dwk-gke-471813/jongcp/todo-backuper
-  newTag: 4.10-d39ef3d363ec3576dddb78d25413ab76727c7586
+  newTag: main-73977ef73847a8f57fd23892ec27c2cee0c43cdf
 - name: todo-broadcaster
   newName: europe-north1-docker.pkg.dev/dwk-gke-471813/jongcp/todo-broadcaster
-  newTag: 4.10-d39ef3d363ec3576dddb78d25413ab76727c7586
+  newTag: main-73977ef73847a8f57fd23892ec27c2cee0c43cdf
 - name: todo-generator
   newName: europe-north1-docker.pkg.dev/dwk-gke-471813/jongcp/todo-generator
-  newTag: 4.10-d39ef3d363ec3576dddb78d25413ab76727c7586
+  newTag: main-73977ef73847a8f57fd23892ec27c2cee0c43cdf

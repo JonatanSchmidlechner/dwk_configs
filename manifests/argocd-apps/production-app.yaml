@@ -6,9 +6,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/JonatanSchmidlechner/-KubernetesSubmissions.git
+    repoURL: https://github.com/JonatanSchmidlechner/dwk_configs.git
     targetRevision: "*.*"
-    path: courseProject/manifests/overlays/prod
+    path: manifests/overlays/prod
   destination:
     server: https://kubernetes.default.svc
     namespace: production
